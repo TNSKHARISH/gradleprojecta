@@ -12,8 +12,8 @@ public class EmployeeController {
     public String getEmp(String id){
         return "Hello Employee "+id;
     }
-    @GetMapping("/{id}")
-    public String getEmpsecond(String id){
+    @GetMapping("/second")
+    public String getEmpSecond(){
         return "Hello Employee This is your second API";
     }
 }
